@@ -11,9 +11,9 @@ namespace Ativos.Northwind
             this.http = http;
         }
 
-        public async Task<CustomersType[]?> GetCustomers()
+        public async Task<OrdersType[]?> GetOrders()
         {
-            return await http.GetFromJsonAsync<CustomersType[]>("/static-data/northwind-customers.json");
+            return await http.GetFromJsonAsync<OrdersType[]>("/static-data/northwind-orders.json");
         }
     }
 }

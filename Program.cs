@@ -23,7 +23,7 @@ void RegisterIgniteUI(IServiceCollection services)
         typeof(IgniteUI.Blazor.Controls.IgbButtonModule),
         typeof(IgniteUI.Blazor.Controls.IgbRippleModule),
         typeof(IgniteUI.Blazor.Controls.IgbNavDrawerModule),
-        typeof(IgniteUI.Blazor.Controls.IgbListModule),
-        typeof(IgniteUI.Blazor.Controls.IgbAvatarModule)
+        typeof(IgniteUI.Blazor.Controls.IgbDatePickerModule),
+        typeof(IgniteUI.Blazor.Controls.IgbSwitchModule)
     );
 }
