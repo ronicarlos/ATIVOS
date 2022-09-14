@@ -28,3 +28,11 @@
     width: max-content;
     height: max-content;
 }
+.combo {
+    left: 20.466840052015602px;
+    top: 135.76072821846554px;
+    position: absolute;
+    width: 413px;
+    height: max-content;
+    min-width: min-content;
+}
