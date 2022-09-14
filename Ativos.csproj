@@ -14,9 +14,9 @@
 
   <ItemGroup>
     <None Update="Shared/MainLayout.razor.css" CssScope="master-view-scope" />
-    <None Update="Pages/View3.razor.css" CssScope="view-3-scope" />
     <None Update="Pages/View1.razor.css" CssScope="view-1-scope" />
     <None Update="Pages/View2.razor.css" CssScope="view-2-scope" />
+    <None Update="Pages/View3.razor.css" CssScope="view-3-scope" />
     <None Update="Pages/ChildView.razor.css" CssScope="child-view-scope" />
   </ItemGroup>
 
